@@ -4,12 +4,15 @@ buttons.forEach((button) => {
 });
 var screen = document.querySelector("input");
 var inputText = "";
-var operandA, operandB = "";
+var operandA, operandB = "0";
 var operation = "";
-function handleClick(e) { console.log(e.target.innerText);
+function handleClick(e) {
+    console.log(e.target.innerText);
     if (e.target.innerText == "C") {
         inputText = "";
-        screen.setAttribute("value", "");
+        screen.value = "";
+        operandA = 0;
+        operandB = 0;
     }
     else if (e.target.innerText == "+") {
         operandA = Number(inputText);
@@ -59,7 +62,8 @@ function handleClick(e) { console.log(e.target.innerText);
 
     else {
         inputText = inputText + e.target.innerText;
-        screen.setAttribute("value", inputText);
+        console.log(inputText)
+        screen.value = inputText;
     }
 
 }

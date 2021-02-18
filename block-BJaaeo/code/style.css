@@ -160,18 +160,21 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
 }
-.flex-c{
+
+.flex-c {
     flex-direction: column;
     align-items: stretch;
-    
+
 }
 
 .flex-75 {
     flex: 0 1 73%;
 }
-.flex-33{
-    flex:0 1 31%;
+
+.flex-33 {
+    flex: 0 1 31%;
 }
+
 .flex-25 {
     flex: 0 1 25%;
 }
@@ -183,11 +186,14 @@ h1 {
     text-align: center;
     font-size: 2rem;
 }
-h3{ font-weight: bold;
+
+h3 {
+    font-weight: bold;
     text-transform: capitalize;
     margin-top: 1rem;
     text-align: center;
 }
+
 .calculator {
     background-color: aliceblue;
     height: 400px;
@@ -218,22 +224,25 @@ button {
     font-size: 1.2rem;
     font-weight: bold;
 }
-.operator{
+
+.operator {
     background-color: rgb(129, 35, 67);
     color: white;
 }
 
-.reset{
+.reset {
     background-color: saddlebrown;
     color: yellow;
 }
-.digit{
+
+.digit {
     background-color: whitesmoke;
     color: black;
-  
+
 }
-.equals{
-    height:207px;
+
+.equals {
+    height: 207px;
     background-color: teal;
     color: white;
 }
