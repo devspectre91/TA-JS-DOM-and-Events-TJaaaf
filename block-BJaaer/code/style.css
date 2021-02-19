@@ -43,6 +43,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: linear-gradient(to right, #7f53ac 0, #657ced 100%);
 }
+
 * {
   box-sizing: border-box;
 }
@@ -60,6 +61,7 @@ input[type='text'] {
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 select {
   padding: 0.5rem 1rem;
   border: none;
@@ -85,24 +87,30 @@ p {
   display: flex;
   flex-direction: column;
 }
+
 input[type='text'] {
   width: 100%;
 }
+
 .terms {
   display: inline-block;
 }
-.modal{
+
+.modal {
   padding: 1.5rem;
 }
-li{
+
+li {
   font-size: 1rem;
   font-weight: bold;
 }
-h2{
+
+h2 {
   font-size: 1.5rem;
   font-weight: bold;
 }
-span{
+
+span {
   display: block;
   width: 100%;
   text-align: right;
