@@ -91,3 +91,22 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+.modal{
+  padding: 1.5rem;
+}
+li{
+  font-size: 1rem;
+  font-weight: bold;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+span{
+  display: block;
+  width: 100%;
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: grey;
+}
