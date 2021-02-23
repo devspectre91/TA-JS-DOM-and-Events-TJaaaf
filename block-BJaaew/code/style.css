@@ -143,13 +143,11 @@ body {
 .container {
 	max-width: 90%;
 	margin: 0 auto;
- 
 }
 .flex {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
-  
 }
 
 .flex-c {
@@ -160,8 +158,8 @@ body {
 .wrap {
 	flex-wrap: wrap;
 }
-.flex-31{
-  flex: 0 1 32.5%;
+.flex-31 {
+	flex: 0 1 31%;
 }
 /* styling header */
 
@@ -211,6 +209,11 @@ h1 {
 	color: lightgray;
 	letter-spacing: 2px;
 }
+.selected {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
 
 /* styling main */
 .main {
@@ -235,34 +238,38 @@ a {
 .cards {
 	padding: 2rem 0;
 }
-.card{text-align: center;
-  padding:1rem;
-  border-radius: 10px;
-  background-color:rgba(135, 207, 235, 0.74);
-  margin-bottom: 1rem;
-  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.082);
+.card {
+	text-align: center;
+	height: 15rem;
+	padding: 1rem 1rem;
+	border-radius: 10px;
+	background-color: rgba(135, 207, 235, 0.74);
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.082);
 }
-.card img{
-  width:80px;
-  object-fit: contain;
-  border-radius: 50%;
+.card img {
+	width: 80px;
+	object-fit: contain;
+	border-radius: 50%;
 }
-h2{
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin: 0.3rem 0;
+h2 {
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin: 0.3rem 0;
 }
-p{text-align: left;
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 0.3rem 0;
+p {
+	text-align: left;
+	font-size: 0.8rem;
+	font-weight: 500;
+	margin: 0.3rem 0;
 }
-button{
-  background-color: rgba(0, 0, 0, 0.87);
-  padding: 0.4rem 0.6rem;
-  color: white;
-  border-radius: 3px;
-  border: none;
-  font-size: 0.8rem;
+button {
+	background-color: rgba(0, 0, 0, 0.87);
+	padding: 0.4rem 0.6rem;
+	color: white;
+	border-radius: 3px;
+	border: none;
+	font-size: 0.8rem;
 }
 /* styling footer */
